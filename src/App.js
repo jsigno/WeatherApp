@@ -53,7 +53,7 @@ function App() {
               <p>Humidity%</p>
             </div>
             <div className="wind">
-              {data.wind ? <p className="bold">{data.wind.speed}<small>mph</small></p> : null}
+              {data.wind ? <p className="bold">{data.wind.speed}<small> MPH</small></p> : null}
               <p>Wind Speed</p>
             </div>
           </div>
